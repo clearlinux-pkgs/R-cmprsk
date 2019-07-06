@@ -4,7 +4,7 @@
 #
 Name     : R-cmprsk
 Version  : 2.2.8
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/cmprsk_2.2-8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cmprsk_2.2-8.tar.gz
 Summary  : Subdistribution Analysis of Competing Risks
