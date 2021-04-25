@@ -4,7 +4,7 @@
 #
 Name     : R-cmprsk
 Version  : 2.2.10
-Release  : 28
+Release  : 29
 URL      : https://cran.r-project.org/src/contrib/cmprsk_2.2-10.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cmprsk_2.2-10.tar.gz
 Summary  : Subdistribution Analysis of Competing Risks
@@ -34,10 +34,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1591716849
+export SOURCE_DATE_EPOCH=1619368625
 
 %install
-export SOURCE_DATE_EPOCH=1591716849
+export SOURCE_DATE_EPOCH=1619368625
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -106,4 +106,3 @@ R CMD check --no-manual --no-examples --no-codoc cmprsk || :
 %defattr(-,root,root,-)
 /usr/lib64/R/library/cmprsk/libs/cmprsk.so
 /usr/lib64/R/library/cmprsk/libs/cmprsk.so.avx2
-/usr/lib64/R/library/cmprsk/libs/cmprsk.so.avx512
